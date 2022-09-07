@@ -37,7 +37,6 @@
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblBienvenido = new System.Windows.Forms.Label();
-            this.lblSlogan = new System.Windows.Forms.Label();
             this.mspRegistro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -68,7 +67,7 @@
             // 
             this.registroDeClienteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registroDeClienteToolStripMenuItem.Image")));
             this.registroDeClienteToolStripMenuItem.Name = "registroDeClienteToolStripMenuItem";
-            this.registroDeClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.registroDeClienteToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.registroDeClienteToolStripMenuItem.Text = "Cliente";
             this.registroDeClienteToolStripMenuItem.Click += new System.EventHandler(this.registroDeClienteToolStripMenuItem_Click);
             // 
@@ -76,7 +75,7 @@
             // 
             this.registroDeVendedorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registroDeVendedorToolStripMenuItem.Image")));
             this.registroDeVendedorToolStripMenuItem.Name = "registroDeVendedorToolStripMenuItem";
-            this.registroDeVendedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.registroDeVendedorToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.registroDeVendedorToolStripMenuItem.Text = "Vendedor";
             this.registroDeVendedorToolStripMenuItem.Click += new System.EventHandler(this.registroDeVendedorToolStripMenuItem_Click);
             // 
@@ -84,7 +83,7 @@
             // 
             this.ventasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ventasToolStripMenuItem.Image")));
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.ventasToolStripMenuItem.Text = "Ventas";
             this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
@@ -116,22 +115,11 @@
             this.lblBienvenido.TabIndex = 2;
             this.lblBienvenido.Text = "VenKaktus";
             // 
-            // lblSlogan
-            // 
-            this.lblSlogan.AutoSize = true;
-            this.lblSlogan.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSlogan.Location = new System.Drawing.Point(22, 101);
-            this.lblSlogan.Name = "lblSlogan";
-            this.lblSlogan.Size = new System.Drawing.Size(294, 28);
-            this.lblSlogan.TabIndex = 3;
-            this.lblSlogan.Text = "\" Programado para su negocio\"";
-            // 
             // frmVenKaktus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(340, 172);
-            this.Controls.Add(this.lblSlogan);
             this.Controls.Add(this.lblBienvenido);
             this.Controls.Add(this.mspRegistro);
             this.Controls.Add(this.pictureBox1);
@@ -158,7 +146,6 @@
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblBienvenido;
-        private System.Windows.Forms.Label lblSlogan;
     }
 }
 
