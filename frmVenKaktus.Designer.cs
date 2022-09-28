@@ -67,7 +67,7 @@
             // 
             this.registroDeClienteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registroDeClienteToolStripMenuItem.Image")));
             this.registroDeClienteToolStripMenuItem.Name = "registroDeClienteToolStripMenuItem";
-            this.registroDeClienteToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.registroDeClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.registroDeClienteToolStripMenuItem.Text = "Cliente";
             this.registroDeClienteToolStripMenuItem.Click += new System.EventHandler(this.registroDeClienteToolStripMenuItem_Click);
             // 
@@ -75,7 +75,7 @@
             // 
             this.registroDeVendedorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registroDeVendedorToolStripMenuItem.Image")));
             this.registroDeVendedorToolStripMenuItem.Name = "registroDeVendedorToolStripMenuItem";
-            this.registroDeVendedorToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.registroDeVendedorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.registroDeVendedorToolStripMenuItem.Text = "Vendedor";
             this.registroDeVendedorToolStripMenuItem.Click += new System.EventHandler(this.registroDeVendedorToolStripMenuItem_Click);
             // 
@@ -83,7 +83,7 @@
             // 
             this.ventasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ventasToolStripMenuItem.Image")));
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ventasToolStripMenuItem.Text = "Ventas";
             this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
@@ -128,6 +128,7 @@
             this.Name = "frmVenKaktus";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empresa VenKaktus";
+            this.Load += new System.EventHandler(this.frmVenKaktus_Load);
             this.mspRegistro.ResumeLayout(false);
             this.mspRegistro.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
